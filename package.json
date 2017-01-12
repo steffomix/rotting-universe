@@ -1,0 +1,20 @@
+{
+  "name": "rotting-universe",
+  "version": "1.0.0",
+  "description": "Tile based Game",
+  "repository": "https://github.com/steffomix/rotting-universe",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd server; node main.js"
+  },
+  "author": "steffomix <steffomix@gmail.com>",
+  "license": "GPL v3",
+  "dependencies": {
+    "easystarjs": "^0.3.1",
+    "express": "^4.14.0",
+    "postal": "^2.0.5",
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {}
+}
